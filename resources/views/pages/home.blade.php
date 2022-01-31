@@ -14,9 +14,10 @@
     <li>
 
         <a href="{{route('show', $comic -> id) }}">
-            Titolo: {{$comic -> title}} -  Autore: {{$comic -> release_date}}
+            Titolo: {{$comic -> title}} -  Date: {{$comic -> release_date}}
 
         </a> <a href="{{route('edit',$comic -> id) }} ">Edit</a>
+        </a> <a href="{{route('delete',$comic -> id) }} ">Delete</a>
 
     </li>
     
