@@ -1,0 +1,1 @@
+<h2>Grazie per aver utilizzato la nostra app.</h2>
